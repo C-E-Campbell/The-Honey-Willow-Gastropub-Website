@@ -1,0 +1,55 @@
+@media(max-width: 600px) {
+    body{
+        padding: 0;
+    }
+    .main_header{
+        background-color: #262e2a;
+    }
+   .video-container{
+       display: none;
+       
+;   }
+    .main_h1{
+        font-size: 30px;
+    }
+    .main_h2{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .giftcards{
+        display: none;
+    }
+
+    .intro{
+        flex-direction: column;
+    }
+
+    .intro_h1{
+        font-size: 30px;
+        text-align: center;
+        width: 30%;
+    }
+    .intro_text{
+        font-size: 16px;
+        width: 30%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .second_h1{
+        font-size: 30px;
+        margin-top: 50px;
+        text-align: center;
+        width: 30%;
+    }
+
+    .friend_box{
+       margin-right: auto;
+       margin-left: auto;
+    }
+}
+
+@media(max-width){
+
+}

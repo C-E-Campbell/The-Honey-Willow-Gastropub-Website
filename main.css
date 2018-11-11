@@ -1,0 +1,356 @@
+:root {
+    --main-white: #fff;
+    --main-dark: #333;
+
+
+    --brown: #2a1e03;
+    --video-overlay: #3b464186;
+    --green: #262e2a;
+    --gold: #d8da79;
+    --lightblue: #a6c6c5;
+    --beige: #d3d3d3;
+
+    --mont: 'Montserrat', sans-serif;
+    --serif: 'Source Serif Pro', serif;
+}
+
+/*--------------CORE----------------------*/
+body {
+    
+    background-color: var(--beige);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    color: var(--main-dark);
+    font-size: 20px;
+    font-family: var(--serif);
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--beige);
+}
+
+.outside_border {
+    border: 1px solid var(--green);
+}
+
+/*-------------Header-----------------------*/
+.address_text {
+    color: var(--main-dark);
+    text-align: center;
+    font-family: var(--main-dark);
+    font-size: 15px;
+}
+
+
+.main_header {
+    position: relative;
+    height: 75vh;
+    overflow: hidden;
+
+
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    margin-top: 2em;
+    color: var(--main-white);
+    padding-right: 50px;
+
+}
+
+.nav_item {
+    margin-left: 90px;
+    padding: 3px 8px;
+    transition: all 0.4s;
+    font-size: 16px;
+
+}
+
+.nav_item:hover {
+    cursor: pointer;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--gold);
+}
+
+
+
+.logo_box{
+    
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    height: 75vh;
+}
+
+.video_overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--video-overlay);
+    height: 75vh;
+    width: 100%;
+    z-index: -99;
+    border-bottom: 1px solid var(--gold);
+}
+
+.main_h1 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: var(--main-white);
+    animation: fadeIn;
+    animation-duration: 1.0s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.main_h2 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 20px;
+    color: var(--main-white);
+    animation: fadeIn;
+    animation-duration: 1.0s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.gold_dash {
+    color: var(--gold);
+}
+
+.gold {
+    color: var(--gold);
+}
+
+/*-----------Gift Card Box------------------*/
+.giftcards {
+    background-color: var(--green);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    border: 1px solid var(--gold);
+    box-shadow: 2px 2px 10px 2px var(--main-dark);
+    animation-name: slideInGiftCard;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+
+}
+
+.giftcards:hover {
+    cursor: pointer;
+}
+
+.giftcard_text {
+    font-size: 25px;
+    text-shadow: 0px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20%;
+    font-family: var(--mont);
+    color: var(--main-white);
+}
+
+/*-------First Intro Section----------------*/
+.intro {
+    display: flex;
+    
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+  
+
+}
+
+.intro_section{
+    flex-shrink: 3;
+    display: inline-block;
+    width: 100%;
+}
+
+.intro_h1 {
+    padding: 8px;
+    font-size: 45px;
+}
+
+.intro_text {
+    padding: 8px;
+    font-family: var(--mont);
+    line-height: 1.5rem;
+    margin-top: 20px;
+   
+
+}
+
+.friend_box {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid var(--main-dark);
+    box-shadow: 2px 10px 25px 1px rgba(51, 51, 51, 0.384);
+    flex-wrap: wrap;
+    
+}
+
+.friend_img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(60%);
+    vertical-align: top;
+}
+
+/*---------------Second Section------------*/
+.second_h1 {
+    padding: 8px;
+    font-size: 45px;
+    text-align: right;
+}
+
+/*---------MISC-----------------*/
+.divider {
+    height: 5px;
+    width: 400px;
+    border-bottom: 1px solid var(--main-dark);
+    margin: 60px auto;
+}
+
+.bold_me {
+    font-weight: 700;
+}
+
+
+
+
+
+.fixed_scroll_section {
+    height: 200px;
+    width: 1200px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 125px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.541)), url(./img/people_eating2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 3px;
+    filter: grayscale(60%);
+}
+
+/*------------------ORGANIC SECTION---------------------------*/
+.organic_section {
+    text-align: center;
+}
+
+.organic_h1 {
+    text-align: center;
+    padding: 8px;
+    font-size: 45px;
+    margin-top: 75px;
+}
+
+.center_text {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*-----------------Footer-------------------*/
+.footer {
+    background-color: var(--green);
+    margin-top: 125px;
+    box-sizing: content-box;
+}
+
+.footer_list {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_item {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid var(--green);
+    transition: all 0.7s;
+}
+
+.footer_item:hover {
+    border-left: 1px Solid var(--gold);
+    border-right: 1px Solid var(--gold);
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideInGiftCard {
+    0% {
+        top: 120%;
+    }
+
+
+
+    100% {
+        top: 70%;
+
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

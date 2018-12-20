@@ -16,7 +16,7 @@
 
 /*--------------CORE----------------------*/
 body {
-    
+
     background-color: var(--main-white);
 }
 
@@ -58,7 +58,7 @@ a {
 
 .main_header {
     position: relative;
-    height: 75vh;
+    height: 85vh;
     overflow: hidden;
 
 
@@ -70,7 +70,7 @@ a {
     width: 100%;
     margin-top: 2em;
     color: var(--main-white);
-    padding-right: 50px;
+    padding-right: 70px;
 
 }
 
@@ -78,7 +78,7 @@ a {
     margin-left: 90px;
     padding: 3px 8px;
     transition: all 0.4s;
-    font-size: 16px;
+    font-size: 19px;
 
 }
 
@@ -90,13 +90,15 @@ a {
 
 
 
-.logo_box{
-    
+.logo_box {
+
     display: inline-block;
     position: absolute;
     top: 30px;
     left: 30px;
-
+}
+.logo_img{
+    height: 125px;
 }
 
 
@@ -114,18 +116,18 @@ a {
     top: 0px;
     left: 0px;
     background-color: var(--video-overlay);
-    height: 75vh;
+    height: 85vh;
     width: 100%;
     z-index: -99;
     border-bottom: 7px solid var(--gold);
 }
 
 .main_h1 {
+    font-weight: 400;
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 10%;
-    font-size: 50px;
-    text-transform: uppercase;
+    font-size: 4em;
     color: var(--main-white);
     animation: fadeIn;
     animation-duration: 1.0s;
@@ -135,7 +137,7 @@ a {
 
 .main_h2 {
     position: absolute;
-    top: 80%;
+    top: 72%;
     left: 10%;
     font-size: 20px;
     color: var(--main-white);
@@ -151,6 +153,8 @@ a {
 
 .gold {
     color: var(--gold);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
 }
 
 /*-----------Gift Card Box------------------*/
@@ -168,7 +172,7 @@ a {
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     animation-fill-mode: both;
-    animation-delay: 0.5s;
+    animation-delay: 0.8s;
 
 }
 
@@ -198,7 +202,7 @@ a {
     flex-wrap: wrap;
 }
 
-.intro_section{
+.intro_section {
     flex-shrink: 3;
     display: inline-block;
     width: 50%;
@@ -214,7 +218,7 @@ a {
     font-family: var(--mont);
     line-height: 1.5rem;
     margin-top: 20px;
-   
+
 
 }
 
@@ -224,7 +228,7 @@ a {
     border: 1px solid var(--main-dark);
     box-shadow: 2px 10px 25px 1px rgba(51, 51, 51, 0.384);
     flex-wrap: wrap;
-    
+
 }
 
 .friend_img {
@@ -297,13 +301,54 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    }
-.footer-box{
+    color: var(--main-white);
+    padding: 20px;
+    border-top: 5px solid var(--gold);
+}
 
-    }
+.footer-box {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.footer_img-con{
+    margin-bottom: 1em;
+}
 
+.footer-box hr {
+    margin-top: 1.2em;
+    margin-bottom: 2.5em;
+    border-color: var(--gold);
+    width: 100%;
+}
 
+.footer-box h2 {
+    padding-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
 
+.footer-box h4 {
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.footer-img {
+    height: 100px;
+}
+.footer-icons{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.fab:hover{
+    color: var(--gold);
+}
 
 
 
@@ -317,12 +362,16 @@ a {
 @keyframes slideInGiftCard {
     0% {
         top: 120%;
+        opacity: 0;
     }
 
-
+    80%{
+        opacity: .1;
+    }
 
     100% {
         top: 65%;
+        opacity: 1;
 
     }
 }

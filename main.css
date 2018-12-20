@@ -77,9 +77,11 @@ a {
 
 .nav_item {
     margin-left: 90px;
-    padding: 3px 8px;
-    transition: all 0.4s;
+    padding-bottom: 5px;
+    transition: border 0.3s ease-in;
     font-size: 19px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    ;
 
 }
 
@@ -129,7 +131,7 @@ a {
     position: absolute;
     top: 60%;
     left: 10%;
-    font-size: 4em;
+    font-size: 3.5em;
     color: var(--main-white);
     animation: fadeIn;
     animation-duration: 1.0s;
@@ -200,7 +202,6 @@ a {
     color: var(--main-white);
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-top: 5px;
     border-bottom: 2px solid var(--gold);
     line-height: 1.7;
     border-top: 1px solid var(--green);
@@ -262,10 +263,8 @@ a {
 .friend_box {
     display: inline-block;
     width: 30%;
-    border: 1px solid var(--main-dark);
     box-shadow: 2px 10px 25px 1px rgba(51, 51, 51, 0.384);
     flex-wrap: wrap;
-
 }
 
 .friend_img {
@@ -274,7 +273,6 @@ a {
     background-position: center;
     background-size: cover;
     filter: grayscale(60%);
-    vertical-align: top;
 }
 
 /*---------------Second Section------------*/
@@ -288,8 +286,9 @@ a {
 .divider {
 
     width: 400px;
-    border: 1px solid var(--light-green);
+    border: 2px solid var(--light-green);
     margin: 60px auto;
+    border-radius: 2px;
 }
 
 .bold_me {
@@ -319,7 +318,7 @@ a {
     width: 100%;
     padding: 1em;
     background-color: var(--gold);
-    margin-top: 100px;
+    margin-top: 25px;
 
 }
 
@@ -336,25 +335,28 @@ a {
     width: 50%;
     padding: 1em;
 }
-.sign-up-text h2{
+
+.sign-up-text h2 {
     width: 75%;
     margin: auto;
     text-align: left;
 }
-.sign-up-text hr{
+
+.sign-up-text hr {
     width: 30%;
     margin: 1em auto;
     border: 1px solid var(--green);
 
 }
 
-.sign-up-text p{
+.sign-up-text p {
     padding: 10px;
     width: 80%;
     margin: auto;
     font-family: var(--mont);
     text-align: center;
 }
+
 .signUpForm {
     width: 50%;
     margin: auto;
@@ -362,8 +364,9 @@ a {
 }
 
 .email-form {
-    width: 100%;
+    width: 80%;
     font-family: var(--mont);
+    margin: auto;
 }
 
 .email-form label {
@@ -371,7 +374,7 @@ a {
     margin: 10px 0px;
     cursor: pointer;
     font-weight: 400;
-    
+
 }
 
 .email-form input {
@@ -408,7 +411,64 @@ a {
     background-color: #506157;
     cursor: pointer;
 }
+/*------------Picture Box Section-----------*/
+.picture-box-section{
+    width: 100%;
+    margin: 75px 0px 25px;
+}
+.piture-box-con{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
 
+.picture-box{
+    height: 350px;
+    width: 500px;
+    border: 1px solid #444;
+    margin: 3px;
+    position: relative;
+}
+.pic-box-h2{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #fff;
+font-weight: 300;
+font-family: var(--mont);
+}
+
+#pic-box-1{
+    background: linear-gradient(rgba(23, 51, 29, 0.747), rgba(51, 51, 51, 0.24)), url(img/team.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#pic-box-1:hover{
+    transform: scale(1.1);
+}
+
+#pic-box-2{
+    background: linear-gradient(rgba(23, 51, 29, 0.747), rgba(51, 51, 51, 0.24)), url(img/menu.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#pic-box-2:hover{
+    transform: scale(1.1);
+}
+
+#pic-box-3{
+    background: linear-gradient(rgba(23, 51, 29, 0.747), rgba(51, 51, 51, 0.24)), url(img/events.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#pic-box-3:hover{
+    transform: scale(1.1);
+}
 /*-----------------Footer-------------------*/
 .footer {
     background: linear-gradient(45deg, var(--green), var(--video-overlay)), url(img/beer.jpg);
@@ -420,14 +480,13 @@ a {
     justify-content: center;
     color: var(--main-white);
     padding: 20px;
-    border-top: 3px solid var(--main-white);
 }
 
 .footer-box {
     padding: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
 
 }
 
@@ -439,6 +498,7 @@ a {
     margin-top: 1.2em;
     margin-bottom: 1em;
     border-color: var(--gold);
+    background-color: var(--gold);
     width: 100%;
 }
 
@@ -468,15 +528,18 @@ a {
 }
 
 .fab {
-    color: var(--gold);
-}
-
-.fab:hover {
     color: var(--main-white);
 }
 
+.fab:hover {
+    color: var(--gold);
+}
 
 
+.notes{
+    width: 100%;
+    text-align: center;
+}
 
 
 

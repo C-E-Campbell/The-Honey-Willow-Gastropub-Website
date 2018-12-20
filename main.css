@@ -434,6 +434,15 @@ a {
     margin: 3px;
     position: relative;
 }
+.pic-box-text{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.pic-box-text h2{
+    margin: auto;
+    padding: 50px;
+}
 .pic-box-h2{
 position: absolute;
 top: 50%;

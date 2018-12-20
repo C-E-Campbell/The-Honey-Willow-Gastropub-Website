@@ -212,13 +212,15 @@ a {
     height: 100%;
     margin: auto;
 }
-.about_us-box h2{
+
+.about_us-box h2 {
     font-size: 50px;
     font-weight: 300;
     padding-bottom: 20px;
     font-family: 'Dancing Script', cursive;
 }
-.about_us-box p{
+
+.about_us-box p {
     font-weight: 300;
     letter-spacing: 2px;
     font-family: var(--mont);
@@ -284,7 +286,7 @@ a {
 
 /*---------MISC-----------------*/
 .divider {
-    
+
     width: 400px;
     border: 1px solid var(--light-green);
     margin: 60px auto;
@@ -311,28 +313,114 @@ a {
     border-radius: 3px;
     filter: grayscale(60%);
 }
+
 /*--------------Sign up Section---------------------*/
-.sign-up{
+.sign-up-section {
+    width: 100%;
+    padding: 1em;
+    background-color: var(--gold);
+    margin-top: 100px;
+
+}
+
+.sign-up {
     display: flex;
     width: 1200px;
-    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-evenly;
+    padding: 1em 0;
+}
+
+.sign-up-text {
+    width: 50%;
+    padding: 1em;
+}
+.sign-up-text h2{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+.sign-up-text hr{
+    width: 30%;
+    margin: 1em auto;
+    border: 1px solid var(--green);
+
+}
+
+.sign-up-text p{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    font-family: var(--mont);
+    text-align: center;
+}
+.signUpForm {
+    width: 50%;
+    margin: auto;
+
+}
+
+.email-form {
+    width: 100%;
+    font-family: var(--mont);
+}
+
+.email-form label {
+    display: block;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+.email-form input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid var(--main-dark);
+
+}
+
+#sendBtn {
+    border: 1px solid var(--main-dark);
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.7;
+    padding: 0;
+    width: 50%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 28px;
+    color: var(--main-white);
+    background-color: var(--light-green);
+    box-shadow: 1px 5px 10px rgba(59, 43, 12, 0.246);
+    border-radius: 4px;
+    transition: 0.3s all;
+}
+
+#sendBtn:hover {
+    box-shadow: 1px 1px 10px rgba(49, 27, 2, 0.692);
+    border-radius: 4px;
+    background-color: #506157;
+    cursor: pointer;
 }
 
 /*-----------------Footer-------------------*/
 .footer {
-    background: linear-gradient( 45deg,var(--green), var(--video-overlay)), url(img/beer.jpg);
+    background: linear-gradient(45deg, var(--green), var(--video-overlay)), url(img/beer.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 125px;
     width: 100%;
     display: flex;
     justify-content: center;
     color: var(--main-white);
     padding: 20px;
-    border-top: 5px solid var(--gold);
+    border-top: 3px solid var(--main-white);
 }
 
 .footer-box {
@@ -349,7 +437,7 @@ a {
 
 .footer-box hr {
     margin-top: 1.2em;
-    margin-bottom: 2.5em;
+    margin-bottom: 1em;
     border-color: var(--gold);
     width: 100%;
 }

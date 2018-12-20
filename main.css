@@ -200,18 +200,20 @@ a {
     background-color: #698073;
     text-align: center;
     color: var(--main-white);
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 100px;
     border-bottom: 2px solid var(--gold);
     line-height: 1.7;
     border-top: 1px solid var(--green);
     border-bottom: 1px solid var(--green);
+   
 }
 
 .about_us-box {
     width: 50%;
     height: 100%;
     margin: auto;
+   
 }
 
 .about_us-box h2 {
@@ -231,7 +233,7 @@ a {
 .intro {
     display: flex;
     width: 1200px;
-    margin-top: 100px;
+    margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -287,7 +289,9 @@ a {
 
     width: 400px;
     border: 2px solid var(--light-green);
-    margin: 60px auto;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 2px;
 }
 
@@ -539,6 +543,10 @@ font-family: var(--mont);
 .notes{
     width: 100%;
     text-align: center;
+}
+.notes h6{
+    font-size: 8px;
+    
 }
 
 

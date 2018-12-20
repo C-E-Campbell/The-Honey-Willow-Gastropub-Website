@@ -17,7 +17,7 @@
 /*--------------CORE----------------------*/
 body {
     
-    background-color: var(--beige);
+    background-color: var(--main-white);
 }
 
 li {
@@ -84,7 +84,7 @@ a {
 
 .nav_item:hover {
     cursor: pointer;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     border-bottom: 1px solid var(--gold);
 }
 
@@ -94,8 +94,8 @@ a {
     
     display: inline-block;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 30px;
+    left: 30px;
 
 }
 
@@ -117,7 +117,7 @@ a {
     height: 75vh;
     width: 100%;
     z-index: -99;
-    border-bottom: 1px solid var(--gold);
+    border-bottom: 7px solid var(--gold);
 }
 
 .main_h1 {
@@ -188,7 +188,6 @@ a {
 /*-------First Intro Section----------------*/
 .intro {
     display: flex;
-    
     width: 1200px;
     margin-top: 100px;
     margin-left: auto;
@@ -197,14 +196,12 @@ a {
     align-content: center;
     padding: 10px;
     flex-wrap: wrap;
-  
-
 }
 
 .intro_section{
     flex-shrink: 3;
     display: inline-block;
-    width: 100%;
+    width: 50%;
 }
 
 .intro_h1 {
@@ -297,30 +294,15 @@ a {
 .footer {
     background-color: var(--green);
     margin-top: 125px;
-    box-sizing: content-box;
-}
-
-.footer_list {
+    width: 100%;
     display: flex;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-evenly;
-    align-items: center;
-}
+    justify-content: center;
+    }
+.footer-box{
 
-.footer_item {
-    text-transform: uppercase;
-    font-size: 20px;
-    padding: 10px;
-    border: 1px solid var(--green);
-    transition: all 0.7s;
-}
+    }
 
-.footer_item:hover {
-    border-left: 1px Solid var(--gold);
-    border-right: 1px Solid var(--gold);
-}
+
 
 
 
@@ -340,7 +322,7 @@ a {
 
 
     100% {
-        top: 70%;
+        top: 65%;
 
     }
 }

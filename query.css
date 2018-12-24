@@ -74,8 +74,10 @@
     .sign-up{
         flex-direction: column;
     }
+
+    /*-----------Intro Section----------*/
+    .intro{
+        flex-direction: column;
+    }
 }
 
-@media(max-width){
-
-}

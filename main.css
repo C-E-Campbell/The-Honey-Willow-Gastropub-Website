@@ -238,7 +238,7 @@ a {
     margin-right: auto;
     justify-content: space-between;
     align-content: center;
-    padding: 10px;
+    padding: 20px;
     flex-wrap: wrap;
 }
 
@@ -264,7 +264,7 @@ a {
 
 .friend_box {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     box-shadow: 2px 10px 25px 1px rgba(51, 51, 51, 0.384);
     flex-wrap: wrap;
 }
@@ -550,7 +550,8 @@ font-family: var(--mont);
     display: flex;
     width: 60%;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 10px auto;
+    text-align: center;
 
 
 }

@@ -48,6 +48,13 @@
        margin-right: auto;
        margin-left: auto;
     }
+
+    .footer{
+        flex-direction: column;
+    }
+    .footer-box{
+        padding: 0;
+    }
 }
 
 @media(max-width){

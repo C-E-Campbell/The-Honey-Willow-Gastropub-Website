@@ -483,12 +483,27 @@ font-family: var(--mont);
     transform: scale(1.1);
 }
 /*-----------------Footer-------------------*/
-.footer {
+.wrapper-footer{
+    width: 100%;
     background: linear-gradient(45deg, var(--green), var(--video-overlay)), url(img/beer.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+}
+.footer {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-white);
+    padding: 20px;
+    margin: auto;
+}
+.footer-container{
+    background: linear-gradient(45deg, var(--green), var(--video-overlay)), url(img/beer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1200px;
     display: flex;
     justify-content: center;
     color: var(--main-white);

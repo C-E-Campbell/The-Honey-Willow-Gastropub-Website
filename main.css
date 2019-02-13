@@ -4,8 +4,8 @@
 
 
     --brown: #2a1e03;
-    --video-overlay: #3b464186;
-    --green: #262e2a;
+    --video-overlay: #3b46416c;
+    --green: #151b18de;
     --light-green: #698073;
     --gold: #d8da79;
     --lightblue: #a6c6c5;
@@ -68,10 +68,10 @@ a {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: 100%;
+    width: 85%;
     margin-top: 2em;
     color: var(--main-white);
-    padding-right: 70px;
+    padding-right: 10px;
 
 }
 
@@ -551,7 +551,7 @@ font-family: var(--mont);
     display: flex;
     width: 60%;
     justify-content: space-between;
-    margin-top: 10px auto;
+    margin-top: 12px;
     text-align: center;
 
 

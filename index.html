@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="query.css">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
@@ -39,7 +40,7 @@
 
         <nav class="main-nav">
             
-                <a href="/Menu/index.html">
+                <a href="./Menu/index.html">
                     <li class="nav_item">OUR MENU</li>
                 </a>
                 
@@ -67,7 +68,7 @@
         </div>
     </section>
 
-    <section class="intro">
+    <section class="intro"  data-aos="fade-up"  >
         <div class="intro_section">
             <h1 class="intro_h1">How It All Happened...</h1>
             <p class="intro_text">Started in 2008 by a few friends that wanted to a chase a dream.
@@ -85,10 +86,10 @@
     </section>
 
 
-    <div class="divider"></div>
+    <div class="divider" data-aos="fade-up" data-aos-duration="600"></div>
 
 
-    <section class="intro">
+    <section class="intro"  data-aos="fade-up" data-aos-delay="500">
         <div class="friend_box">
             <img class="friend_img" src="img/people_eating1.jpg" alt="people eating">
         </div>
@@ -189,7 +190,14 @@
         </footer>
     </section>
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 200,
+            easing: 'ease-in-out',
+            duration: 500
+        });
+    </script>
 </body>
 
 </html>

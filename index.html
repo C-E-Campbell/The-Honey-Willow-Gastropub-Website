@@ -1,202 +1,244 @@
-<!--This is a portfolio project. Main page pushed tp github 12/20/2018 @ the apt-->
-
-
-
-
-
-
+<!--This is a portfolio project. Main page pushed to github 12/20/2018 @ the apt-->
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>The Honey Willow Gastropub</title>
+		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="query.css" />
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Honey Willow Gastropub</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="query.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700"
+			rel="stylesheet"
+		/>
+		<link
+			href="https//fonts.googleapis.com/css?family=Montserrat:400,700"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700"
+			rel="stylesheet"
+		/>
+	</head>
 
-</head>
+	<body>
+		<header class="main_header">
+			<div class="video-container">
+				<video
+					src="media/main_video.mp4 "
+					playsinline
+					autoplay
+					muted
+					loop
+				></video>
+			</div>
+			<div class="video_overlay"></div>
 
-<body>
+			<div class="logo_box">
+				<a href="index.html"
+					><img class="logo_img" src="img/logo1.png" alt="Honey Willow LOGO"
+				/></a>
+			</div>
 
-   
+			<nav class="main-nav">
+				<a href="./Menu/index.html">
+					<li class="nav_item">OUR MENU</li>
+				</a>
+			</nav>
+			<h1 class="main_h1">
+				The <span class="gold">Honey Willow</span> Gastropub
+			</h1>
+			<h2 class="main_h2">
+				Hearth <span class="gold_dash">-</span> Heart
+				<span class="gold_dash">-</span> Passion
+				<span class="gold_dash">-</span> Food
+			</h2>
+		</header>
 
-    <header class="main_header">
-        <div class="video-container"><video src="media/main_video.mp4 " playsinline autoplay muted loop></video></div>
-        <div class="video_overlay"></div>
+		<section class="giftcards">
+			<a href="#">
+				<div class="giftcard_div">
+					<p class="giftcard_text">Gift Cards Now Available!</p>
+				</div>
+			</a>
+		</section>
+		<div id="myModal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h2>Giftcards now available!</h2>
+				<p>These make for a great gift!</p>
+				<p>Stop by the store and grab one.</p>
+				<p>Currently offered in these amounts</p>
+				<ul>
+					<li>$15</li>
+					<li>$25</li>
+					<li>$50</li>
+				</ul>
+			</div>
+		</div>
 
+		<section class="about_us">
+			<div class="about_us-box">
+				<h2>About - <span class="gold">Honey Willow</span></h2>
+				<p>
+					A phoenix from the ashes. Located in the historic district, Honey
+					Willow brings a fresh revival of spirit to the Jacksonville area. Over
+					100 beers on tap, Fresh from-scratch meals and an open atmosphere that
+					invites unforgettable conversation.
+				</p>
+			</div>
+		</section>
 
-        <div class="logo_box"><a href="index.html"><img class="logo_img" src="img/logo1.png" alt="Honey Willow LOGO"></a></div>
+		<section class="intro" data-aos="fade-up">
+			<div class="intro_section">
+				<h1 class="intro_h1">How It All Happened...</h1>
+				<p class="intro_text">
+					Started in 2008 by a few friends that wanted to a chase a dream. After
+					visiting some of the best pubs and restaurants across the states we
+					knew we needed to bring it home. Located conveniently in the central
+					area of Jacksonville, FL.
+					<span class="bold_me gold shadow">The Honey Willow</span> will be your
+					next stop for a few beers and a burger.
+				</p>
+			</div>
+			<div class="friend_box">
+				<img class="friend_img" src="img/friends.jpg" alt="burger" />
+			</div>
+		</section>
 
-        <nav class="main-nav">
-            
-                <a href="./Menu/index.html">
-                    <li class="nav_item">OUR MENU</li>
-                </a>
-                
-        </nav>
-        <h1 class="main_h1">The <span class="gold">Honey Willow</span> Gastropub</h1>
-        <h2 class="main_h2">Hearth <span class="gold_dash">-</span> Heart <span class="gold_dash">-</span> Passion
-            <span class="gold_dash">-</span> Food</h2>
-    </header>
+		<div class="divider"></div>
 
-    <section class="giftcards">
-        <a href="#">
-            <div class="giftcard_div">
-                <p class="giftcard_text">E-Gift Cards Now Available!</p>
-            </div>
-        </a>
-    </section>
+		<section class="intro" data-aos="fade-up">
+			<div class="friend_box">
+				<img
+					class="friend_img"
+					src="img/people_eating1.jpg"
+					alt="people eating"
+				/>
+			</div>
+			<div class="intro_section">
+				<h1 class="second_h1">...A Place For Friends</h1>
+				<p class="intro_text">
+					Few and far between can be used to describe the handful of restaurants
+					friends can gather to enjoy each others company without being rushed
+					or feeling like a burden. We have decided that we would honor the
+					occasion by providing ample seating and outside patio space so you
+					dont have to leave...ever! Hold On... We do have to close sometime. 1
+					a.m!
+				</p>
+			</div>
+		</section>
 
+		<section class="picture-box-section">
+			<div class="pic-box-text">
+				<h2 class="intro_h1">A Cultural Staple To Our Community</h2>
+			</div>
+			<div class="piture-box-con">
+				<div id="pic-box-1" class="picture-box">
+					<h2 class="pic-box-h2">Meet The Team</h2>
+				</div>
+				<a href="./Menu/index.html">
+					<div id="pic-box-2" class="picture-box">
+						<h2 class="pic-box-h2">Our Menu</h2>
+					</div>
+				</a>
+				<div id="pic-box-3" class="picture-box">
+					<h2 class="pic-box-h2">Special Events</h2>
+				</div>
+			</div>
+		</section>
 
-    <section class="about_us">
-        <div class="about_us-box">
-            <h2>About - <span class="gold">Honey Willow</span></h2>
-            <p>A phoenix from the ashes. Located in the historic district, Honey Willow brings a fresh revival of spirit. Over 100 beers on tap,
-                Fresh from scratch meals and an open atmosphere that invites conversation.  </p>
-        </div>
-    </section>
+		<section class="'sign-up-section'">
+			<div class="sign-up">
+				<div class="sign-up-text">
+					<h2>Stay up to date on The Honey Willow News and Events!</h2>
+					<hr />
+					<p>
+						Sign up and we will send you a monthly specials & live events
+						calendar
+					</p>
+					<p>Pinky Promise No Spam!</p>
+				</div>
 
-    <section class="intro"  data-aos="fade-up"  >
-        <div class="intro_section">
-            <h1 class="intro_h1">How It All Happened...</h1>
-            <p class="intro_text">Started in 2008 by a few friends that wanted to a chase a dream.
-                After visiting some of the best pubs and restaurants across the
-                states we knew we needed to bring it home. Located conveniently in the central
-                area of Jacksonville, FL. <span class="bold_me gold shadow">The Honey Willow</span> will be your next stop for
-                a
-                few
-                beers and a burger.
-            </p>
-        </div>
-        <div class="friend_box">
-            <img class="friend_img" src="img/friends.jpg" alt="burger">
-        </div>
-    </section>
+				<div class="signUpForm">
+					<form class="email-form" action="#">
+						<label for="First">First Name</label>
 
+						<input type="text" id="First" placeholder="First" />
 
-    <div class="divider" ></div>
+						<label for="Last">Last Name</label>
 
+						<input type="text" id="Last" placeholder="Last" />
 
-    <section class="intro"  data-aos="fade-up">
-        <div class="friend_box">
-            <img class="friend_img" src="img/people_eating1.jpg" alt="people eating">
-        </div>
-        <div class="intro_section">
-            <h1 class="second_h1">...A Place For Friends</h1>
-            <p class="intro_text">Few and far between can be used to describe the handful of restaurants
-                friends can gather to enjoy each others company without being rushed or feeling like a burden.
-                We have decided that we would honor the occasion by providing ample seating and outside patio space
-                so you dont have to leave...ever! Hold On... We do have to close sometime. 1 a.m!
-            </p>
-        </div>
-    </section>
+						<label for="Email">Email</label>
 
-    <section class="picture-box-section">
-        <div class="pic-box-text">
-            <h2 class="intro_h1">A Cultural Staple To Our Community</h2>
-        </div>
-        <div class="piture-box-con">
-            <div id="pic-box-1" class="picture-box">
-                <h2 class="pic-box-h2">Meet The Team</h2>
-            </div>
-            <a href="./Menu/index.html" >
-            <div id="pic-box-2" class="picture-box">
-                <h2 class="pic-box-h2">Our Menu</h2>
-            </div>
-            </a>
-            <div id="pic-box-3" class="picture-box">
-                <h2 class="pic-box-h2">Special Events</h2>
-            </div>
-        </div>
-    </section>
+						<input type="email" id="Email" placeholder="Email" />
 
+						<input type="send" id="sendBtn" value="Sign Me Up!" />
+					</form>
+				</div>
+			</div>
+		</section>
 
-    <section class="'sign-up-section'">
-        <div class="sign-up">
-            <div class="sign-up-text">
-                <h2>Stay up to date on The Honey Willow News and Events!</h2>
-                <hr>
-                <p>Sign up and we will send you a monthly specials & live events calendar</p>
-                <p>Pinky Promise No Spam!</p>
-            </div>
+		<!----<section class="fixed_scroll_section"></section>-->
+		<section class="wrapper-footer">
+			<footer class="footer">
+				<div class="footer-box">
+					<div class="footer_img-con">
+						<img class="footer-img" src="img/logo1.png" alt="logo" />
+					</div>
+					<h4>The <span class="gold shadow">Honey Willow</span> Gastropub</h4>
+					<h4>3333 Monument Rd</h4>
+					<h4>Jacksonville, FL | 32225</h4>
+				</div>
 
-            <div class="signUpForm">
-                <form class="email-form" action="#">
-                    <label for="First">First Name</label>
-
-                    <input type="text" id='First' placeholder='First'>
-
-                    <label for="Last">Last Name</label>
-
-                    <input type="text" id="Last" placeholder='Last'>
-
-                    <label for="Email">Email</label>
-
-                    <input type="email" id="Email" placeholder='Email'>
-
-                    <input type="send" id="sendBtn" value="Sign Me Up!">
-
-                </form>
-            </div>
-        </div>
-
-    </section>
-
-    </section>
-    <!----<section class="fixed_scroll_section"></section>-->
-    <section class="wrapper-footer">
-        <footer class="footer">
-
-            <div class="footer-box">
-                <div class="footer_img-con"><img class="footer-img" src="img/logo1.png" alt="logo"></div>
-                <h4>The <span class="gold shadow">Honey Willow</span> Gastropub</h4>
-                <h4>3333 Monument Rd</h4>
-                <h4>Jacksonville, FL | 32225
-                </h4>
-            </div>
-
-            <div class="footer-box">
-
-                <div>
-                    <h2>Contact Us</h2>
-                    <hr>
-                    <h4>(777) 777-7777</h4>
-                    <h4>info@thehoneywillow.com</h4>
-                    <div class="footer-icons">
-                        <a href="#" class="icon-items"><i class="fab fa-twitter-square"></i></a>
-                        <a href="#" class="icon-items"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#" class="icon-items"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-box">
-                <h2>Hours</h2>
-                <hr>
-                <h4>Mon-Fri: 1pm - 1am</h4>
-                <h4>Sat: 11am - 2am</h4>
-                <h4>Sun: Closed </h4>
-            </div>
-            </div>
-        </footer>
-    </section>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            delay: 200,
-            easing: 'ease-in-out',
-            duration: 500
-        });
-    </script>
-</body>
-
+				<div class="footer-box">
+					<div>
+						<h2>Contact Us</h2>
+						<hr />
+						<h4>(777) 777-7777</h4>
+						<h4>info@thehoneywillow.com</h4>
+						<div class="footer-icons">
+							<a href="#" class="icon-items"
+								><i class="fab fa-twitter-square"></i
+							></a>
+							<a href="#" class="icon-items"
+								><i class="fab fa-facebook-square"></i
+							></a>
+							<a href="#" class="icon-items"
+								><i class="fab fa-instagram"></i
+							></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-box">
+					<h2>Hours</h2>
+					<hr />
+					<h4>Mon-Fri: 1pm - 1am</h4>
+					<h4>Sat: 11am - 2am</h4>
+					<h4>Sun: Closed</h4>
+				</div>
+			</footer>
+		</section>
+		<script src="./index.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				delay: 200,
+				easing: "ease-in-out",
+				duration: 500
+			});
+		</script>
+	</body>
 </html>

@@ -82,12 +82,18 @@ header div img:hover {
 .menu {
 	width: 100%;
 	margin: 0px auto;
-	padding: 2rem;
+	padding: 0 2rem;
+}
+.menu_item {
+	padding: 10px 0;
 }
 
+.menu_item p {
+	font-size: 18px;
+}
 .menu_h1 {
 	font-size: 45px;
-	padding-top: 100px;
+	padding-top: 80px;
 	text-align: center;
 }
 

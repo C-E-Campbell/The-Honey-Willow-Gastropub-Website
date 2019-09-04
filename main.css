@@ -470,7 +470,7 @@ a {
 /*-----------------Footer-------------------*/
 .wrapper-footer {
 	width: 100%;
-	background: linear-gradient(45deg, var(--green), var(--video-overlay)),
+	background: linear-gradient(45deg, rgb(0, 0, 0), rgba(51, 51, 51, 0.699)),
 		url(img/beer.jpg);
 	background-size: cover;
 	background-position: center;
@@ -485,8 +485,7 @@ a {
 	margin: auto;
 }
 .footer-container {
-	background: linear-gradient(45deg, var(--green), var(--video-overlay)),
-		url(img/beer.jpg);
+	background: linear-gradient(45deg, #333, #666), url(img/beer.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

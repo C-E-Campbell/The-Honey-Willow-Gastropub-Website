@@ -1,79 +1,75 @@
 :root {
-    --main-white: #fff;
-    --main-dark: #333;
+	--main-white: #fff;
+	--main-dark: #333;
 
+	--brown: #2a1e03;
+	--video-overlay: #3b464186;
+	--green: #262e2a;
+	--gold: #d8da79;
+	--lightblue: #a6c6c5;
+	--beige: #fdfde0;
 
-    --brown: #2a1e03;
-    --video-overlay: #3b464186;
-    --green: #262e2a;
-    --gold: #d8da79;
-    --lightblue: #a6c6c5;
-    --beige: #d3d3d3;
-
-    --mont: 'Montserrat', sans-serif;
-    --serif: 'Source Serif Pro', serif;
+	--mont: "Montserrat", sans-serif;
+	--serif: "Source Serif Pro", serif;
 }
 /*--------------CORE----------------------*/
 body {
-    padding: 3px;
-    background-color: var(--beige);
+	padding: 3px;
+	background-color: var(--beige);
 }
 
 li {
-    list-style: none;
-    display: inline-block;
+	list-style: none;
+	display: inline-block;
 }
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 html {
-    color: var(--main-dark);
-    font-size: 20px;
-    font-family: var(--serif);
-    font-weight: 400;
+	color: var(--main-dark);
+	font-size: 20px;
+	font-family: var(--serif);
+	font-weight: 400;
 }
 
 a {
-    text-decoration: none;
-    color: var(--beige);
+	text-decoration: none;
+	color: var(--beige);
 }
 
-
-
-#reverse_overflow{
-    overflow: visible;
-    height: 100px;
-    position: fixed;
-    background: var(--beige);
-    width: 100%;
+#reverse_overflow {
+	overflow: visible;
+	height: 100px;
+	position: fixed;
+	background: var(--beige);
+	width: 100%;
 }
 
-
-.nav_item{
-    color: var(--main-dark);
+.nav_item {
+	color: var(--main-dark);
 }
 
 .nav_item:hover {
-    cursor: pointer;
-    padding-bottom: 20px;
-    border-bottom: 1px solid var(--green);
+	cursor: pointer;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--green);
 }
 
-.menu{
-    width: 1300px;
-    margin: 50px auto;
+.menu {
+	width: 1300px;
+	margin: 50px auto;
 }
 
-.menu_h1{
-    font-size: 45px;
-   padding-top: 100px;
-   text-align: center;
+.menu_h1 {
+	font-size: 45px;
+	padding-top: 100px;
+	text-align: center;
 }
 
-.menu_section{
-    padding-bottom: 50px;
+.menu_section {
+	padding-bottom: 50px;
 }

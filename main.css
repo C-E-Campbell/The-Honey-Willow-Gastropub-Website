@@ -3,7 +3,7 @@
 	--main-dark: #3b3b3b;
 
 	--brown: #2a1e03;
-	--video-overlay: #3b46416c;
+	--video-overlay: #111f1463;
 	--green: #151b18de;
 	--light-green: #698073;
 	--gold: #d8da79;
@@ -94,12 +94,12 @@ a {
 }
 
 .logo_img {
-	height: 50px;
+	height: 70px;
 	transition: all 0.2s ease-in;
 	transform-origin: center;
 }
 .logo_img:hover {
-	height: 52px;
+	height: 72px;
 }
 .video-container {
 	position: absolute;
@@ -155,6 +155,10 @@ a {
 	font-weight: bold;
 }
 
+.shadow {
+	text-shadow: 1px 1px 1px rgb(122, 122, 122);
+}
+
 /*-----------Gift Card Box------------------*/
 .giftcards {
 	background-color: var(--green);
@@ -197,8 +201,6 @@ a {
 	padding-bottom: 100px;
 	border-bottom: 2px solid var(--gold);
 	line-height: 1.7;
-	border-top: 1px solid var(--green);
-	border-bottom: 1px solid var(--green);
 }
 
 .about_us-box {

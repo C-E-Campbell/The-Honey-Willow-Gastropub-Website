@@ -14,7 +14,6 @@
 }
 /*--------------CORE----------------------*/
 body {
-	padding: 3px;
 	background-color: var(--beige);
 }
 
@@ -59,9 +58,31 @@ a {
 	border-bottom: 1px solid var(--green);
 }
 
+header {
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+}
+
+header div {
+	display: flex;
+	align-content: center;
+}
+header div img {
+	padding: 10px;
+}
+header div img:hover {
+	cursor: pointer;
+}
+
+.logo_img {
+	height: 100px;
+}
+
 .menu {
-	width: 1300px;
-	margin: 50px auto;
+	width: 100%;
+	margin: 0px auto;
+	padding: 2rem;
 }
 
 .menu_h1 {

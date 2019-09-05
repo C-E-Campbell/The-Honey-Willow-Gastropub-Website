@@ -135,6 +135,7 @@ a {
 
 .main_h2 {
 	position: absolute;
+	padding: 25px 0;
 	top: 72%;
 	left: 10%;
 	font-size: 20px;

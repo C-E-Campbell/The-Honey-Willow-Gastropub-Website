@@ -56,7 +56,7 @@ a {
 
 .main_header {
 	position: relative;
-	height: 86vh;
+	height: 95vh;
 	overflow: hidden;
 }
 
@@ -114,7 +114,7 @@ a {
 	top: 0px;
 	left: 0px;
 	background-color: var(--video-overlay);
-	height: 86vh;
+	height: 95vh;
 	width: 100%;
 	z-index: -99;
 	border-bottom: 7px solid var(--gold);
@@ -198,8 +198,8 @@ a {
 	background-color: #698073;
 	text-align: center;
 	color: var(--main-white);
-	padding-top: 75px;
-	padding-bottom: 100px;
+	padding-top: 55px;
+	padding-bottom: 80px;
 	border-bottom: 2px solid var(--gold);
 	line-height: 1.7;
 }
@@ -393,7 +393,7 @@ a {
 }
 
 #sendBtn:hover {
-	box-shadow: 1px 1px 10px rgba(49, 27, 2, 0.692);
+	box-shadow: 1px 1px 10px rgba(49, 27, 2, 0.445);
 	border-radius: 4px;
 	background-color: #506157;
 	cursor: pointer;
@@ -408,6 +408,7 @@ a {
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
+	align-content: center;
 }
 
 .picture-box {
@@ -416,7 +417,11 @@ a {
 	border: 1px solid #444;
 	margin: 3px;
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
+
 .pic-box-text {
 	width: 100%;
 	margin: auto;
@@ -434,6 +439,7 @@ a {
 	color: #fff;
 	font-weight: 300;
 	font-family: var(--mont);
+	text-align: center;
 }
 
 #pic-box-1 {
@@ -444,7 +450,7 @@ a {
 	transition: all 0.5s;
 }
 #pic-box-1:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 #pic-box-2 {
@@ -455,7 +461,8 @@ a {
 	transition: all 0.5s;
 }
 #pic-box-2:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
+	overflow: hidden;
 }
 
 #pic-box-3 {
@@ -466,7 +473,7 @@ a {
 	transition: all 0.5s;
 }
 #pic-box-3:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 /*-----------------Footer-------------------*/
 .wrapper-footer {

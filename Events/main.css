@@ -1,0 +1,13 @@
+.event-h1 {
+	text-align: center;
+	padding: 1em;
+}
+
+.event {
+	display: flex;
+	justify-content: center;
+}
+
+.event div {
+	padding: 1em;
+}

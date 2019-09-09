@@ -1,3 +1,8 @@
+body {
+	background: url(../img/adult-alcohol-bar-274192-min.jpg);
+	background-size: cover;
+	height: 100%;
+}
 .main {
 	display: flex;
 	justify-content: center;
@@ -13,12 +18,13 @@
 	border: 1px solid #333;
 	border-radius: 4px;
 	padding: 1em;
-	width: 400px;
-	background-color: rgb(188, 221, 229);
-	color: #000;
+	width: 300px;
+	background-color: #fbfffdde;
+	color: rgb(8, 8, 8);
 }
 .main-card img {
-	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border: 1px solid #333;
 }
 .main-card h3 {
 	padding-bottom: 1em;
@@ -35,4 +41,6 @@
 .team-h1 {
 	text-align: center;
 	padding: 1em;
+	color: #fff;
+	text-shadow: 2px 3px 4px #000;
 }
